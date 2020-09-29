@@ -30,6 +30,7 @@ public class ControllerAdvisor extends ResponseEntityExceptionHandler {
 
     /**
      * NOTE: returning a string does not work!
+     * Will work if add annotation @ResponseBody.
      */
 //    @ExceptionHandler(BookNotFoundException.class)
 //    public String handleBookNotFoundException(
